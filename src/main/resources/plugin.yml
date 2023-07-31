@@ -1,0 +1,13 @@
+name: TjLandKitPvP
+version: '${project.version}'
+main: me.tj.tjlandkitpvp.TjLandKit
+prefix: TjLand
+authors: [tj]
+commands:
+  setspawn:
+    description: Sets the spawn point to the config.yml file.
+    usage: /setspawn
+
+  spawn:
+    description: Teleports you to spawn.
+    usage: /spawn
